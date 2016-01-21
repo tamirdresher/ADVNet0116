@@ -3,8 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Reflection", "01 Reflection", "{11712655-751E-4252-8DCB-79CD06DCD29A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionPlayground", "ReflectionPlayground\ReflectionPlayground.csproj", "{3DC6F64C-358E-42C0-A6C7-000B4884D1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Generics", "02 Generics", "{302D20F2-6F49-4296-B0CE-3273BD865894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{8439CAD5-6A61-4006-AA33-077DF82C4725}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC6F64C-358E-42C0-A6C7-000B4884D1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC6F64C-358E-42C0-A6C7-000B4884D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC6F64C-358E-42C0-A6C7-000B4884D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC6F64C-358E-42C0-A6C7-000B4884D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8439CAD5-6A61-4006-AA33-077DF82C4725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8439CAD5-6A61-4006-AA33-077DF82C4725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8439CAD5-6A61-4006-AA33-077DF82C4725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8439CAD5-6A61-4006-AA33-077DF82C4725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DC6F64C-358E-42C0-A6C7-000B4884D1A7} = {11712655-751E-4252-8DCB-79CD06DCD29A}
+		{8439CAD5-6A61-4006-AA33-077DF82C4725} = {302D20F2-6F49-4296-B0CE-3273BD865894}
 	EndGlobalSection
 EndGlobal

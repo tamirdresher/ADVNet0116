@@ -1,0 +1,14 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+class Generated
+{
+//<#= DateTime.Now #>
+<# int x=5; #>
+<# for(int i=0;i<x;i++){ #>
+//Hello - duplicated
+<#} #>
+}
